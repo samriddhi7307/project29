@@ -3,9 +3,9 @@ class box
 	constructor(x, y,width,height)
 	{
 		var options={
-			restitution: 1,
+			restitution: 0.1,
 			friction:0.3,
-			density:0.01
+			density:0.2
 			
 			}
 		
